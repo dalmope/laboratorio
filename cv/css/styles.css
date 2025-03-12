@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+
+.wrapper2 {
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+}
+
+.brand span {
+  color: #f5a623;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .active {
+  color: #f5a623;
+}
+
+.menu a:hover {
+  background-color: #f5a623;
+  color: #000;
+  transition: ease-in 0.5s;
+}
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.main-academico{
+  margin: 0 auto;
+  width: 80vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.main-continue {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h1 span {
+  color: #f5a623;
+}
+
+.button-cv {
+  padding: 10px 20px;
+  background-color: #f5a623;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-cv:hover {
+  background-color: #000;
+  color: #f5a623;
+  transition: ease-in 0.5s;
+}
+
+.main img {
+  width: 350px;
+  border: 7px solid #f5a623;
+  height: 520px;
+  border-radius: 50px;
+  background-color: #f5a623;
+}
+
+.about {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 2em;
+  align-items: center;
+}
+
+.about-info {
+  margin: 0 auto;
+  width: 80vw;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.about-info h2 {
+  font-size: 2em;
+  color: #000;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background-color: #f5a623;
+  margin-top: 5px;
+  margin-bottom: 2em;
+}
+
+.divider-2 {
+  height: 2px;
+  width: 60px;
+  background-color: #f5a623;
+  margin-top: 5px;
+  margin-bottom: 1em;
+}
+
+hr {
+  border: 1px solid #f5a623;
+}
+
+.wrapper-table {
+  margin: 0 auto;
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #f5a623;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #f5a623;
+}
+
+.content-table tbody tr:hover {
+  font-weight: bold;
+  color: #f5a623;
+}
+
+.instituciones {
+  margin-top: 2em;
+}
+
+.images-inst {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.images-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.video {
+  height: 40vh;
+}
+
+.wrapper-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

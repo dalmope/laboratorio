@@ -1,54 +1,122 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="David Alberto Mora - 1151680">
-    <title>Laboratorio de Programacion</title>
-    <meta name="description" content="Trabajo de laboratorio de programacion  - UFPS - 2025">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="cv/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 
 <body>
-    <main>
-        <section></section>
 
-        <h1> En un lugar </h1>
-        <h2> De la mancha </h2>
-        <h3> Cuyo nombre </h3>
-        <h4> No quiero </h4>
-        <h5> acordarme. </h5>
-        <h6> No ha mucho </h6>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>D <span>M</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a class="active" href="#">Inicio</a></li>
+                    <li><a href="./cv/academico.html">Academico</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <p>
-            En un lugar de la mancha cuyo nombre no quiero acordarme. No ha mucho tiempo que vivia un hidalgo de los de
-            lanza un astillero
-        </p>
+        <main class="main">
+            <img src="./cv/assets/photo.png" alt="Perfil">
+            <div>
+                <h1>I'm <span>David </span> Mora </h1>
+                <p>
+                    Esto es un poco de lo que soy y lo que hago
+                </p>
+                <a href="#about-info"><button class="button-cv">Explorar</button></a>
+            </div>
+        </main>
+    </div>
+    <hr>
 
-        <section></section>
+    <div class="wrapper2">
+        <div class="about" id="about-info">
+            <h2>Acerca de mi</h2>
+            <div class="divider"></div>
+            <p>Hola!, Soy un estudiante de Ingeniera de sistemas de la universidad Francisco de Paula Santander y
+                desarrollador backend apasionado de la tecnologia</p>
+            
+        </div>
+        
 
-        <figure>
-            <img src="./assets/depositphotos_36220949-stock-photo-beautiful-landscape.jpg" alt="Ave">
-            <figcaption>Ave</figcaption>
-        </figure>
-        <figure>
-            <img src="./assets/istockphoto-1317323736-612x612.jpg" alt="Arbol">
-            <figcaption>Arbol</figcaption>
-        </figure>
-        <figure>
-            <img src="./assets/planet-earth-space-night-some-elements-image-furnished-nasa-52734504.webp" alt="Hearth">
-            <figcaption>Planeta</figcaption>
-        </figure>
+        <div class="about-info">
+            <div >
+                <h2>Habilidades:</h2>
+                <div class="divider"></div>
 
-        <figure>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/vG4LLrLXPU8?si=_WvnijJXrxqMVaW8"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </figure>
+                <h3>Lenguajes y Frameworks: </h3>
+                <div class="divider-2"></div>
 
-        <section></section>
-    </main>
+                <ul>
+                    <li>Java (Spring Boot, Spring Reactor)</li>
+                    <li>NodeJs (Express)</li>
+                    <li>Python</li>
+                </ul> <br>
+
+                <h3>Programación Reactiva y Asíncrona: </h3>
+                <div class="divider-2"></div>
+
+                <ul>
+                    <li>Reactor</li>
+                    <li>Reactive Redis</li>
+                    <li>R2DBC</li>
+                </ul> <br>
+
+                <h3>Control de Versiones y CI/CD: </h3>
+                <div class="divider-2"></div>
+
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub Actions / Azure Pipelines</li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h3>Bases de Datos: </h3>
+                <div class="divider-2"></div>
+
+                <ul>
+                    <li>MongoDB</li>
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                    <li>Redis</li>
+                    <li>DynamoDB</li>
+                </ul> <br>
+
+                <h3>Cloud & DevOps: </h3>
+                <div class="divider-2"></div>
+
+                <ul>
+                    <li>AWS (Lambda, S3, DynamoDB, ECR, EKS, etc.)</li>
+                    <li>Azure Pipelines</li>
+                </ul> <br>
+
+                <h3>Pruebas y Calidad de Código: </h3>
+                <div class="divider-2"></div>
+
+                <ul>
+                    <li>Karate (pruebas de aceptación)</li>
+                    <li>JUnit </li>
+                    <li>Stryker (Mutation test)</li>
+                    <li>JaCoCo (Cobertura de código)</li>
+                    <li>Jest (Performance test) </li>
+                </ul> 
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 </html>

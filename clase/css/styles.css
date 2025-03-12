@@ -1,0 +1,21 @@
+p {
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.title {
+    color: blue;
+}
+
+.title::first-letter{
+    font-size: 1.5em;
+    color: aqua;
+}
+
+.title:hover {
+    color: red;
+}
+
+html {
+    font-size: 52.5%;
+}
