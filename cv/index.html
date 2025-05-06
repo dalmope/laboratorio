@@ -117,6 +117,33 @@
         </div>
     </div>
 
+    <script>
+        const peso = parseInt(prompt("Ingrese su peso en kg"));
+        const altura = parseInt(prompt("Ingrese su altura en cm"));
+
+        const alturaMetros = altura / 100;
+        const imc = peso / (alturaMetros * alturaMetros);
+
+        if (imc < 18.5) {
+            alert("Bajo peso: " + imc);
+        }
+        else if (imc <= 24.9) {
+            alert("Normal: " + imc);
+        } 
+        else if (imc <= 29.9) {
+            alert("Sobrepeso: " + imc);
+        } 
+        else if (imc <= 34.9) {
+            alert("Obesidad grado 1: " + imc);
+        } 
+        else if (imc <= 39.9) {
+            alert("Obesidad grado 2:" + imc);
+        } else {
+            alert("Obesidad grado 3: " + imc);
+        }
+
+    </script>
+
 </body>
 
 </html>

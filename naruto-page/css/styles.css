@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: #e76f51;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #264653;
+}
+
+.card-content p {
+    margin: 10px 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.abilities {
+    margin-top: 10px;
+}
+
+.abilities strong {
+    color: #2a9d8f;
+}
+
+.habilidad {
+    background: #e9c46a;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: white;
+} 
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+form input, form button {
+  padding: 10px;
+  font-size: 1em;
+}
+
+form input {
+  width: 200px;
+}
+
+form button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #21867a;
+}

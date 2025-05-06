@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background: steelblue;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.nav{
+    background: #333;
+    padding: 10px;
+}
+
+.menu {
+  display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.item {
+  display: flex;
+  background: grey;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+.item:nth-child(1), .item:nth-child(5) {
+    flex: 2;
+}
+.item:nth-child(2), .item:nth-child(4) {
+    flex: 1.5;
+}
+.item:nth-child(3) {
+    flex: 1;
+}
+
+.grid {
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px;
+  gap: 10px;
+}
+
+.item2 {
+  background: grey;
+  text-align: center;
+  line-height: 20px;
+  padding: auto;
+}
+
+.item-1 {
+  background-color: blueviolet;
+}
+.item-2 {
+  background-color: brown;
+}
+.item-3 {
+  background-color: cadetblue;
+}
+.item-4 {
+  background-color: coral;
+}
+.item-5 {
+  background-color: darkcyan;
+}
+.item-6 {
+  background-color: darkgoldenrod;
+}
+.item-7 {
+  background-color: darkmagenta;
+}
+.item-8 {
+  background-color: darkolivegreen;
+}
+.item-9 {
+  background-color: darkorange;
+}
